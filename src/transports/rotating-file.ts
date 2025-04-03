@@ -19,7 +19,7 @@ export function rotatingFileTransport(options: RotatingFileOptions): Writable {
       require('fs').renameSync(filePath, `${filePath}.1`);
       currentSize = 0;
     } catch (e) {
-      if (e.code !== 'ENOENT') {
+      if (e instanceof Error && (e as any).code !== 'ENOENT') {
         console.error(`Error rotating log files: ${e.message}`);
       }
     }
