@@ -1,6 +1,6 @@
-# Luce 
+# Luce Logger
 
-**Luce** (Italian for "light") is a lightweight, fast, and customizable logging library for Node.js. Inspired by [Pino](https://github.com/pinojs/pino), it offers structured logging with emoji support, pretty printing, and flexible transports—all with zero runtime dependencies.
+**Luce Logger** (Italian for "light") is a lightweight, fast, and customizable logging library for Node.js. Inspired by [Pino](https://github.com/pinojs/pino), it offers structured logging with emoji support, pretty printing, and flexible transports—all with zero runtime dependencies.
 
 ## Features
 
@@ -18,16 +18,7 @@
 ## Installation
 
 ```bash
-npm install luce
-```
-
-Since `luce` is not yet published, you can also clone the repository and link it locally:
-
-```bash
-git clone https://github.com/lahiruudayakumara/luce.git
-cd luce
-npm install
-npm link
+npm install luce-logger
 ```
 
 ## Usage
@@ -143,8 +134,8 @@ Creates a new logger instance.
 
 ### Setup
 ```bash
-git clone https://github.com/lahiruudayakumara/luce.git
-cd luce
+git clone https://github.com/lahiruudayakumara/luce-logger.git
+cd luce-logger
 npm install
 ```
 

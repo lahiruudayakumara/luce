@@ -1,5 +1,5 @@
 {
-    "name": "luce",
+    "name": "luce-logger",
     "version": "1.0.0",
     "description": "A lightweight, fast, and customizable logging library with emoji support",
     "main": "dist/index.js",
@@ -32,6 +32,6 @@
     ],
     "repository": {
       "type": "git",
-      "url": "https://github.com/lahiruudayakumara/luce.git"
+      "url": "https://github.com/lahiruudayakumara/luce-logger.git"
     }
   }
