@@ -1,12 +1,14 @@
 {
     "name": "luce-logger",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A lightweight, fast, and customizable logging library with emoji support",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
       "build": "tsc",
       "test": "jest",
+      "test-ci": "jest --ci --runInBand",
+      "test:smoke": "echo 'Running smoke tests...' && jest --testPathPattern=smoke",
       "example": "ts-node examples/basic.ts",
       "prepublishOnly": "npm run build",
       "lint": "eslint . --ext .ts"

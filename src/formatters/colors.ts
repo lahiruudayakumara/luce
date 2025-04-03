@@ -1,5 +1,3 @@
-import { trace } from "next/dist/trace";
-
 export const COLORS = {
     reset: '\x1b[0m',
     debug: '\x1b[36m',

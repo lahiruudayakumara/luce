@@ -1,6 +1,6 @@
 # Luce Logger
 
-**Luce Logger** (Italian for "light") is a lightweight, fast, and customizable logging library for Node.js. Inspired by [Pino](https://github.com/pinojs/pino), it offers structured logging with emoji support, pretty printing, and flexible transports—all with zero runtime dependencies.
+**Luce** (Italian for "light") is a lightweight, fast, and customizable logging library for Node.js. Inspired by [Pino](https://github.com/pinojs/pino), it offers structured logging with emoji support, pretty printing, and flexible transports—all with zero runtime dependencies.
 
 ## Features
 
