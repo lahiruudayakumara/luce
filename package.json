@@ -1,0 +1,37 @@
+{
+    "name": "luce",
+    "version": "1.0.0",
+    "description": "A lightweight, fast, and customizable logging library with emoji support",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+      "build": "tsc",
+      "test": "jest",
+      "example": "ts-node examples/basic.ts",
+      "prepublishOnly": "npm run build",
+      "lint": "eslint . --ext .ts"
+    },
+    "keywords": ["logging", "logger", "typescript", "node", "emoji"],
+    "author": "lahiruudayakumara",
+    "license": "MIT",
+    "devDependencies": {
+      "@types/jest": "^29.5.0",
+      "@types/node": "^20.0.0",
+      "@typescript-eslint/eslint-plugin": "^6.0.0",
+      "@typescript-eslint/parser": "^6.0.0",
+      "eslint": "^8.0.0",
+      "jest": "^29.5.0",
+      "ts-jest": "^29.1.0",
+      "ts-node": "^10.9.1",
+      "typescript": "^5.0.0"
+    },
+    "files": [
+      "dist",
+      "src",
+      "README.md"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/lahiruudayakumara/luce.git"
+    }
+  }
